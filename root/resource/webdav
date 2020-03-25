@@ -1,0 +1,6 @@
+Alias /webdav /var/www/webdav
+
+<Directory /var/www/webdav>
+DAV On
+Header set Access-Control-Allow-Origin "*"
+</Directory>
